@@ -5,7 +5,7 @@
 = {workspace-setup-windows}: PowerShell
 
 This is the part of the {workspace-setup-windows} repository.
-It contains all files that you would normally put in your *PowerShell* home directory.
+It contains all files that you would normally put in your _PowerShell_ home directory.
 It configures your profile including the theme among many other things.
 
 ---
