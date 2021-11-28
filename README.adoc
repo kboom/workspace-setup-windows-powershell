@@ -25,6 +25,10 @@ Before cloning this repository:app-name:
 
 You might need to run your terminal as administrator and issue `set-executionpolicy remotesigned` which will allow running ps1 scripts created locally but require the ones that you download to be signed. If you downloaded a script from the internet and you are sure it is secure then you can just right click on it and select "unblock". Make sure it is not read-only as otherwise it will fail with awkward error.
 
+=== You might want to keep the directory always on disk if it is in a cloud location
+
+By default, many systems will look for your configuration in your cloud OneDrive folder to provide consistent experience whereever you are. However, this can add latency and may break with no network, so it's best to keep local copies at all times.
+
 == Modules
 
 {oh-my-posh}::
