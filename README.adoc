@@ -5,7 +5,7 @@
 = {workspace-setup-windows}: PowerShell
 
 This is the part of the {workspace-setup-windows} repository.
-It contains all files that you would normally put in your **PowerShell** home directory.
+It contains all files that you would normally put in your *PowerShell* home directory.
 It configures your profile including the theme among many other things.
 
 ---
@@ -16,7 +16,7 @@ toc::[]
 
 == Usage
 
-Before cloning this repository make sure to follow https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[this] to install **Windows Terminal** which is a great GUI for your PowerShell shell. You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
+Before cloning this repository make sure to follow https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[this] to install *Windows Terminal* which is a great GUI for your PowerShell shell. You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
 
 === Enable running scripts which you created locally
 
