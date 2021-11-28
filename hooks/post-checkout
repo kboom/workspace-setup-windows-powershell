@@ -1,1 +1,4 @@
+#!/bin/bash                                                                      
+set -e                                                                           
+printf 'Updating your PowerShell settings'         
 ../InstallProfile.ps1
