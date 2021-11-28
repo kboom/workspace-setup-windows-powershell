@@ -16,7 +16,10 @@ toc::[]
 
 == Usage
 
-Before cloning this repository make sure to follow https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[this] to install *Windows Terminal* which is a great GUI for your PowerShell shell. You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
+Before cloning this repository:app-name: 
+
+* Update the location of your git hooks for this repository by issuing `git config core.hooksPath hooks`.
+* Make sure to follow https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[this] to install *Windows Terminal* which is a great GUI for your PowerShell shell. You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
 
 === Enable running scripts which you created locally
 
