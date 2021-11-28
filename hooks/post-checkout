@@ -1,4 +1,3 @@
-#!/bin/bash                                                                      
-set -e                                                                           
-printf 'Updating your PowerShell settings'         
-../InstallProfile.ps1
+#!/bin/sh                                                                           
+Write-Host 'Updating your PowerShell settings'         
+pwsh  ../InstallProfile.ps1
