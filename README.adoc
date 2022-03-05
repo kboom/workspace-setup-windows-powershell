@@ -1,0 +1,35 @@
+:toc: macro
+:workspace-setup-windows: link:https://github.com/kboom/workspace-setup-windows[Workspace Setup Windows]
+:oh-my-posh: https://ohmyposh.dev/[Oh My Posh]
+
+= {workspace-setup-windows}: PowerShell
+
+This is the part of the {workspace-setup-windows} repository.
+It contains all files that you would normally put in your _PowerShell_ home directory.
+It configures your profile including the theme among many other things. Isn't it awesome?
+
+---
+
+toc::[]
+
+---
+
+== Usage
+
+Before cloning this repository:app-name: 
+
+* Update the location of your git hooks for this repository by issuing `git config core.hooksPath hooks`. You don't need to, but then you would need to remember to launch the init script each time you update this repository.
+* Make sure to follow https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[this] to install *Windows Terminal* which is a great GUI for your PowerShell shell. You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
+
+=== Enable running scripts which you created locally
+
+You might need to run your terminal as administrator and issue `set-executionpolicy remotesigned` which will allow running ps1 scripts created locally but require the ones that you download to be signed. If you downloaded a script from the internet and you are sure it is secure then you can just right click on it and select "unblock". Make sure it is not read-only as otherwise it will fail with awkward error.
+
+=== You might want to keep the directory always on disk if it is in a cloud location
+
+By default, many systems will look for your configuration in your cloud OneDrive folder to provide consistent experience whereever you are. However, this can add latency and may break with no network, so it's best to keep local copies at all times.
+
+== Modules
+
+{oh-my-posh}::
+Customise your shell profile.
