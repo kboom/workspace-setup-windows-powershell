@@ -1,0 +1,6 @@
+% files
+
+# Create new dir
+New-Item -Path <x> -ItemType "directory"
+
+$ x: Read-Host "Enter a directory name"
