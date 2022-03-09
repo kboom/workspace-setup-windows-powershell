@@ -3,4 +3,13 @@
 # Change branch
 git checkout <branch>
 
+# Remove all local branches other than master
+git branch | %{ $_.Trim() } | ?{ $_ -ne 'master' -and $_ -ne '* master' } | %{ git branch -D $_ }
+
+# Show graphical history
+git log --oneline --decorate --graph --all
+
+# Show tracked branches
+git branch -vv
+
 $ branch: git branch | awk '{print $NF}'
